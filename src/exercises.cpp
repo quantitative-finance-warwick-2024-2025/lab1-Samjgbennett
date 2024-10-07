@@ -12,6 +12,9 @@ Can write on two lines
 */
 void exercise_1()
 {
+    std::cout << "My first C-program" << "Can write on two lines";
+    
+    return 0;
     // Your code here
 }
 
@@ -26,6 +29,12 @@ Area of the triangle: 10.000000
 */
 void exercise_2(double base, double height)
 {
+    double area = 1/2 * base * height;
+
+    std::cout << "Area of the triangle:", area;
+
+    return 0;
+
     // Your code here
 }
 
